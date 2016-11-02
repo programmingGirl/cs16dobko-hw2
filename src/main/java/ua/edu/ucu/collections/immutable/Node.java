@@ -11,6 +11,12 @@ public class Node {
         this.data = new_data;
         next = null;
     }
+
+    public Node(Object new_data, Node next){
+        this.data = new_data;
+        this.next = next;
+    }
+
     public void setNext(Node otherNode){
         this.next = otherNode;
     }
